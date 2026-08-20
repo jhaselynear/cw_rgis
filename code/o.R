@@ -1,0 +1,33 @@
+## scalar
+a <- 1.2
+b <-"a"
+
+## vector
+va <- c(1.2, 3, 4.6)
+mean(va)
+
+vb <- c("1","2", "3")
+#mean(vb) ## error
+
+## matrix
+vd <-c(10,3, 2)
+
+ma <- cbind(vc, vd)
+mb <- rbind(vc, vd)
+
+x <- C("1", 3)
+
+# # tricky data type: factor
+vz <- c("a", "b", "c")
+vf <- factor(vz)
+
+### data frame
+
+data.frame(letter=vz,
+           numeric=va)
+
+df0
+  
+
+
+        
