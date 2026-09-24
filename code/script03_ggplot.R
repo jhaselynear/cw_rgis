@@ -19,15 +19,12 @@ iris %>%
         y= Sepal.Width,
         color = Species)
   ) +
-  geom_point
+  geom_point()
 
 # exercise ----------------------------------------------------------------
 
 
 
-
-
-R
 
 
 
